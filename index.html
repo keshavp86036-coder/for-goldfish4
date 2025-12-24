@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Just for you, Goldfish 🐠</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #fff7f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Poppins", system-ui, sans-serif;
+    }
+
+    .card {
+      background: #ffffff;
+      width: 90%;
+      max-width: 420px;
+      padding: 30px 25px;
+      border-radius: 24px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .title {
+      font-size: 26px;
+      font-weight: 600;
+      color: #d46a6a;
+      margin-bottom: 6px;
+    }
+
+    .emojis {
+      font-size: 28px;
+      margin-bottom: 18px;
+    }
+
+    /* PHOTO STYLE */
+    .photo-frame {
+      width: 130px;
+      height: 130px;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+      padding: 6px;
+      background: linear-gradient(135deg, #ffd6d6, #ffeaea);
+    }
+
+    .photo-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      background: #fff;
+    }
+
+    .message {
+      font-size: 17px;
+      color: #555;
+      line-height: 1.7;
+      margin-bottom: 22px;
+    }
+
+    .message span {
+      display: block;
+      margin: 6px 0;
+    }
+
+    .divider {
+      width: 60px;
+      height: 3px;
+      background: #ffd6d6;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+
+    .footer {
+      font-size: 14px;
+      color: #999;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="title">Just for you, Goldfish</div>
+    <div class="emojis">🐠🎄</div>
+
+    <!-- HER PHOTO -->
+    <div class="photo-frame">
+      <img src="goldfish.jpg" alt="Goldfish">
+    </div>
+
+    <!-- MESSAGE -->
+    <div class="message">
+      <span>I don’t need a gift this Christmas, because…</span>
+      <span>you always forget things,</span>
+      <span>but somehow you became my favourite 🎁</span>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="footer">
+      Made with a smile 🙂
+    </div>
+  </div>
+
+</body>
+</html>
